@@ -1,0 +1,156 @@
+.fa-solid.fa-building{
+    font-weight: 700;
+    font-size: 28px;
+}
+.navbar{
+    background-color: white;
+}
+body{
+    background-color: whitesmoke !important;
+}
+.item{
+    border: none;
+    background-color: white;
+    width: 80px;
+    font-weight: 700;
+}
+#userImage{
+   width: 40px; 
+   height: 40px;
+   border-radius: 50%;
+   border: none;
+}
+.sidebar { 
+    position: fixed; 
+    width: 40px; 
+    height: 100vh !important; 
+    background-color: rgb(20, 18, 18); 
+    color: white; 
+} 
+.home-icon { 
+    font-weight: 600 !important; 
+    padding-top: 25px; 
+    font-size: 20px; 
+    padding-left: 8px; 
+} 
+.settings-icon { 
+    font-size: 20px; 
+    padding-left: 8px; 
+    font-weight: 600 !important; 
+}
+.card{
+    width: 50% !important;
+    margin-left: 40px !important;
+}
+.navbar-toggler-icon{
+    font-size: 15px;
+}
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 70%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+}
+.modal-content {
+    width: 200px;
+    border-radius: 20px;
+    background-color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: 0 auto;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+}
+.modal-content label {
+    display: block;
+    margin-bottom: 4px;
+    color: #000;
+}
+.modal-content input {
+    width:100%;
+    padding: 6px;
+    border-radius: 8px;
+    border: solid 1px #2d2d29;
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+    color: #2d2d29;
+    background-color: #fff;
+    margin-bottom: 8px;
+}
+.close {
+    color: #2d2d29;
+    font-size: 20px;
+    font-weight: bold;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+.heading {
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    color: #17346e;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+.submitbutton {
+    background-color: #126086;
+    width: 100px;
+    padding: 8px;
+    margin: 0;
+    border-radius: 8px;
+    font-size: 14px;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.error-message {
+    height: 15px;
+    color: red;
+}
+.diallog-box{
+    margin: 30px auto;
+    padding: 4px 10px;
+    font-family: "Roboto",sans-serif;
+    font-size: 20px;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+
+}
+.close-button{
+    display: block;
+    border: none;
+    margin-left: auto;
+    margin-right: 0;
+    padding: 0;    
+    background-color: rgba(0,0,0,0);
+}
+.close-icon{
+    font-size: 15px;
+    color: white;
+}
+
+@media screen and (max-width:600px) {
+    .card{
+        width: 95% !important;
+        margin-left: 10px !important;
+    }
+    h5{
+        font-size: 12px !important;
+    }
+    .col-6{
+        margin-left: -10px;
+        margin-right: 0 auto !important;
+    }
+}
+@media screen and (min-width:600px) and (max-width:768px){
+    .card{
+        width: 70% !important;
+    }
+}

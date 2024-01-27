@@ -1,0 +1,76 @@
+body{
+    background-color: whitesmoke !important;
+}
+.card{
+    width: 70% !important;
+}
+input{
+    width: 250px;
+    height: 25px;
+    border-radius: 12px;
+}
+select{
+    width: 250px;
+    height: 25px;
+    border-radius: 12px;
+}
+::placeholder{
+    padding-left: 3%;
+}
+h1{
+    text-align: center !important;
+    margin-bottom: 20px !important;
+}
+p{
+    height: 12px;
+    font-size: 12px;
+    color: red;
+    line-height: 12px;
+}
+.sign{
+    text-align: center
+}
+.signbtn{
+    background-color:#126086;
+    height: 28px;
+    border-radius: 14px;
+    width: 100px;
+    border: none;
+}
+label{
+    font-weight: 700;
+}
+.bot{
+    width: 50% !important;
+}
+@media screen and (max-width:600px) {
+    .bot{
+        width: 90% !important;
+    }
+    input{
+        width: 100%;
+    }
+    select{
+        width: 100%;
+    }
+    .card{
+        width: 90% !important;
+    }
+    label{
+        font-weight: 500;
+    }
+    h1{
+        margin-bottom: 10px !important;
+    }
+}
+@media screen and (min-width:600px) and (max-width:768px) {
+    input{
+        width: 100%;
+    }
+    select{
+        width: 100%;
+    }
+    label{
+        font-weight: 600;
+    }
+}

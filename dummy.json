@@ -1,0 +1,101 @@
+[
+  {
+    "id": "TS101",
+    "name": "Shanthi",
+    "department": "Python",
+    "mobile": 9123456789,
+    "role": "User",
+    "email": "shanthi@gmail.com",
+    "image": "girl.png"
+  },
+  {
+    "id": "TS102",
+    "name": "Abaya",
+    "department": "Java",
+    "mobile": 9234567891,
+    "role": "User",
+    "email": "abaya@gmail.com",
+    "image": "girl.png"
+  },
+  {
+    "id": "TS103",
+    "name": "Mounika",
+    "department": "Database",
+    "mobile": 9345678912,
+    "role": "User",
+    "email": "mounika@gmail.com",
+    "image": "girl.png"
+  },
+  {
+    "id": "TS104",
+    "name": "Divya",
+    "department": "Java",
+    "mobile": 9456789123,
+    "role": "User",
+    "email": "divya@gmail.com",
+    "image": "girl.png"
+  },
+  {
+    "id": "TS105",
+    "name": "Deepthi",
+    "department": "Python",
+    "mobile": 9567891234,
+    "role": "User",
+    "email": "deepthi@gmail.com",
+    "image": "girl.png"
+  },
+  {
+    "id": "TS106",
+    "name": "Roshan",
+    "department": "Java",
+    "mobile": 9678912345,
+    "role": "User",
+    "email": "roshan@gmail.com",
+    "image": "boy.png"
+  },
+  {
+    "id": "TS107",
+    "name": "Vivek",
+    "mobile": 9789123456,
+    "department": "Database",
+    "role": "User",
+    "email": "vivek@gmail.com",
+    "image": "boy.png"
+  },
+  {
+    "id": "TS108",
+    "name": "Venu",
+    "department": "Python",
+    "mobile": 9891234567,
+    "role": "User",
+    "email": "venu@gmail.com",
+    "image": "boy.png"
+  },
+  {
+    "id": "TS109",
+    "name": "Rajesh",
+    "department": "Database",
+    "mobile": 9912345678,
+    "role": "User",
+    "email": "rajesh@gmail.com",
+    "image": "boy.png"
+  },
+  {
+    "id": "TS110",
+    "name": "Suraj",
+    "department": "IT",
+    "mobile": 9100618891,
+    "role": "User",
+    "email": "suraj@gmail.com",
+    "image": "boy.png"
+  },
+  {
+    "id": "TS100",
+    "name": "Anusha",
+    "department": "Admin",
+    "mobile": 7036889121,
+    "role": "Admin",
+    "email": "anusha@gmail.com",
+    "image": "girl.png"
+  }
+]
